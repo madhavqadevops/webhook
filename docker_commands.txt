@@ -9,12 +9,7 @@ docker run --name my-jenkins-1 -p 8080:8080 -p 50000:50000 jenkins/jenkins:lts
 a81e92d79535 a81e92d79535
 docker exec -it a81e92d79535 /bin/bash
 systemctl status docker
-
-
-commit001
-
-commit003
-commit004
+/usr/bin/git/usr/bin/git/usr/bin/git/usr/bin/git/usr/bin/gitv
 commit006commit001
 
 commit003
