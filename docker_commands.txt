@@ -11,6 +11,9 @@ docker exec -it a81e92d79535 /bin/bash
 systemctl status docker
 
 
+commit001
+
+
 
 
 
