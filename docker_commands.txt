@@ -1,0 +1,21 @@
+#!/bin/bash
+sudo su
+yum update -y
+yum install docker -y
+systemctl start docker
+systemctl enable docker
+docker run --name myjenkins -p 8080:8080 -p 50000:50000 -v /var/jenkins_home jenkins/jenkins:lts
+docker run --name my-jenkins-1 -p 8080:8080 -p 50000:50000 jenkins/jenkins:lts
+a81e92d79535 a81e92d79535
+docker exec -it a81e92d79535 /bin/bash
+systemctl status docker
+
+
+
+
+
+7e6ec1753067415b8aee73e6acb6dd22
+madhavqadevops@gmail.com
+Vertafore@2k21
+
+
